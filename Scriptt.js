@@ -53,13 +53,13 @@ var swiper = new Swiper(".mySwiper", {
     },
     breakpoints:{
         640:{
-            slidespreview: 1,
+            slidesperview: 1,
         },
        768:{
-            slidespreview: 2,
+            slidesperview: 2,
             },
        640:{
-          slidespreview: 3,
+          slidesperview: 3,
     },
 },
   });
@@ -74,13 +74,13 @@ var swiper = new Swiper(".mySwiper", {
     },
     breakpoints:{
         640:{
-            slidespreview: 1,
+            slidesperview: 1,
         },
        768:{
-            slidespreview: 2,
+            slidesperview: 2,
             },
        640:{
-          slidespreview: 3,
+          slidesperview: 3,
     },
 },
   });

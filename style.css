@@ -15,7 +15,7 @@
 }
 
 *::selection{
-    background:var(--orang);
+    background:var(--orange);
     color: #fff;
 }
 
@@ -362,7 +362,7 @@ header .search-bar-container label:hover{
   }
 
   .packages .box-container .box .content h3 i{
-    color:var(--orang);
+    color:var(--orange);
   }
   
   .packages .box-container .box .content p{
@@ -373,7 +373,7 @@ header .search-bar-container label:hover{
 
   .packages .box-container .box .content .stars i{
     font-size:1.7rem;
-    color:var(--orang);
+    color:var(--orange);
   }
 
 .packages .box-container .box .content .price{

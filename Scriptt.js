@@ -45,42 +45,41 @@ videoBtn.forEach(btn =>{
 //swiper js code
 
 var swiper = new Swiper(".mySwiper", {
-    spaceBetween:20,
-    loop:true,
-    autoplay:{
-        delay:2500,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+        delay: 2500,
         disableOnInteraction: false,
     },
-    breakpoints:{
-        640:{
-            slidesperview: 1,
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
         },
-       768:{
-            slidesperview: 2,
-            },
-       640:{
-          slidesperview: 3,
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
     },
-},
-  });
+});
 
-  
-  var swiper = new Swiper(".brand-slider", {
-    spaceBetween:20,
-    loop:true,
-    autoplay:{
-        delay:2500,
+var swiper = new Swiper(".brand-slider", {
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+        delay: 2500,
         disableOnInteraction: false,
     },
-    breakpoints:{
-        640:{
-            slidesperview: 1,
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
         },
-       768:{
-            slidesperview: 2,
-            },
-       640:{
-          slidesperview: 3,
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
     },
-},
-  });
+});

@@ -17,7 +17,7 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 🌐 Live Preview (Demo Link):
 
- 📎 [Live Demo](https://rutujaapawar18.github.io/project-travelling-website-design/) (Hosted on GitHub Pages)
+ 📎 [Live Demo]https://rutujaapawar18.github.io/project-travelling-website-design/(Hosted on GitHub Pages)
 
 👉 _Note: You can also host this project using GitHub Pages, Netlify, or Vercel._
 

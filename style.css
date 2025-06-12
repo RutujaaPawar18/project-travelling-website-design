@@ -8,14 +8,14 @@
     font-family: "Nunito", sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
-    text-transform: capitalize; /* FIXED */
+    text-transform: capitalize;
     outline: none; border:none;
     text-decoration: none;
     transition: all .2s linear;
 }
 
 *::selection{
-    background:var(--orange); /* FIXED */
+    background:var(--orange);
     color: #fff;
 }
 
@@ -304,7 +304,7 @@ header .search-bar-container label:hover{
 }
 
 .book .row .image img{
-   width:100%; /* FIXED */
+   width:100%;
 }
 
 .book .row .form{
@@ -319,7 +319,7 @@ header .search-bar-container label:hover{
 }
 
 .book .row form .inputBox input{
-    width:100%; /* FIXED */
+    width:100%;
     padding:1rem;
     border:.1rem solid rgba(0, 0, 0,.1);
     font-size: 1.7rem;
@@ -362,7 +362,7 @@ header .search-bar-container label:hover{
 }
 
 .packages .box-container .box .content h3 i{
-    color:var(--orange); /* FIXED */
+    color:var(--orange);
 }
 
 .packages .box-container .box .content p{
@@ -373,7 +373,7 @@ header .search-bar-container label:hover{
 
 .packages .box-container .box .content .stars i{
     font-size:1.7rem;
-    color:var(--orange); /* FIXED */
+    color:var(--orange);
 }
 
 .packages .box-container .box .content .price{
@@ -409,12 +409,12 @@ header .search-bar-container label:hover{
 
 .services .box-container .box h3{
     font-size: 2.5rem;
-    color: #333; /* FIXED */
+    color: #333;
 }
 
 .services .box-container .box p{
     font-size: 2.5rem;
-    color: #666; /* FIXED */
+    color: #666;
     padding:1rem 0;
 }
 
@@ -471,8 +471,8 @@ header .search-bar-container label:hover{
 }
 
 .swiper {
-    height: 100%; /* FIXED */
-    width: 100%;  /* FIXED */
+    height: 100%;
+    width: 100%;
 }
 
 .swiper-slide {
@@ -489,7 +489,7 @@ header .search-bar-container label:hover{
     transform: translatex(-50%);
     border: 5rem solid var(--orange);
     border-color: transparent;
-    border-top-color: #f4f0f0; /* FIXED */
+    border-top-color: #f4f0f0;
 }
 
 .swiper-client-data{
@@ -502,7 +502,7 @@ header .search-bar-container label:hover{
     max-width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    border:.5rem solid #ebe3e3; /* FIXED */
+    border:.5rem solid #ebe3e3;
     object-fit: cover;
 }
 
@@ -557,8 +557,8 @@ header .search-bar-container label:hover{
 
 .brand-container{
     text-align: center;
-    height: 100%; /* FIXED */
-    width: 100%;  /* FIXED */
+    height: 100%;
+    width: 100%;
 }
 
 .footer{

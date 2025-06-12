@@ -35,16 +35,15 @@ formClose.addEventListener('click',() =>{
 
 videoBtn.forEach(btn =>{
    btn.addEventListener('click', ()=>{
-   document.querySelector('.controls .active').classList.remove('active');
-   btn.classList.add('active');
-   let src = btn.getAttribute('data-src');
-   document.querySelector('#video-slider').src = src;
+      document.querySelector('.controls .active').classList.remove('active');
+      btn.classList.add('active');
+      let src = btn.getAttribute('data-src');
+      document.querySelector('#video-slider').src = src;
    });
 });
 
-//swiper js code
-
-var swiper = new Swiper(".mySwiper", {
+// Swiper for reviews
+var swiper1 = new Swiper(".mySwiper", {
     spaceBetween: 20,
     loop: true,
     autoplay: {
@@ -64,7 +63,8 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
-var swiper = new Swiper(".brand-slider", {
+// Swiper for brands
+var swiper2 = new Swiper(".brand-slider", {
     spaceBetween: 20,
     loop: true,
     autoplay: {
@@ -73,13 +73,13 @@ var swiper = new Swiper(".brand-slider", {
     },
     breakpoints: {
         640: {
-            slidesPerView: 1,
-        },
-        768: {
             slidesPerView: 2,
         },
-        1024: {
+        768: {
             slidesPerView: 3,
+        },
+        1024: {
+            slidesPerView: 5,
         },
     },
 });

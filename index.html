@@ -1,621 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complete responsive tour and travel agency website design tutorial</title>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-
-    <!--font awesome cdn link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <!-- custom css file link -->
-    <link rel="stylesheet" href="css/style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
- 
-  <!--header section starts -->  
 
-<header>
-
-    <div id="menu-bar" class="fas fa-bars"></div>
-
-    <a href="#" class="logo"><span>T</span>ravel</a>   
-
-    <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#book">Book</a>
-        <a href="#packages">Packages</a>
-        <a href="#services">Services</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#review">Review</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="icons">
-        <i class="fas fa-search" id="search-btn"></i>
-        <i class="fas fa-user" id="login-btn"></i>
-    </div>
-
-    <form action=""class="search-bar-container">
-        <input type="search" id="search-bar"placeholder="search here...">
-        <label for="search-bar"class="fas fa-search"></label>
-    </form>
-
-</header>
-
-<!--header section ends -->
-
-<!--login <form container -->
-
-    <div class="login-form-container">
-
-        <i class="fas fa-times" id="form-close"></i>
-
-        <form action="">
-            <h3>login</h3>
-            <input type="email" class="box" placeholder="enter your email">
-            <input type="password" class="box" placeholder="enter your password">
-            <input type="submit" value="login now" class="btn">
-            <input type="checkbox" id="remember">
-            <label for="remember">remember me</label>
-            <p>forget password? <a href="#">click here</a></p>
-            <p>don't have and account? <a href="#">register now</a></p>
-    </form>
-    
-    </div>
-
-<!--home section starts -->
-
-<section class="home" id="home">
-
-    <div class="content">
-     <h3>adventure is worthwhile</h3>
-     <p>discover new places with us, adventure awaits</p>
-     <a href="#" class="btn">discover more</a>
-   </div>
-
-   <div class="controls">
-    <span class="vid-btn active" data-src="image/vid-1.mp4"></span>
-    <span class="vid-btn" data-src="image/vid-2.mp4"></span>
-    <span class="vid-btn" data-src="image/vid-6.mp4"></span>
-    <span class="vid-btn" data-src="image/vid-4.mp4"></span>
-    <span class="vid-btn" data-src="image/vid-9.mp4"></span>
-   </div>
-
-   <div class="video-container">
-    <video src="image/vid-1.mp4" id="video-slider" loop autoplay muted></video> 
-    </div>
-
-</section>
-
-<!--home section ends -->
-
-<!--book section starts -->
-
-<section class="book" id="book">
-
-   <h1 class="heading">
-    <span>b</span>
-    <span>o</span>
-    <span>o</span>
-    <span>k</span>
-    <span class="space"></span>
-    <span>n</span>
-    <span>o</span>
-    <span>w</span>
-   </h1>
-
-   <div class="row">
-
-    <div class="image">
-        <img src="images/IMAGE9.avif" alt="">
-    </div>
-
-    <form action="">
-       <div class="inputBox">
-           <h3>where to</h3>
-           <input type="text" placeholder="place name">
-       </div>
-       <div class="inputBox">
-        <h3>how many</h3>
-        <input type="number" placeholder="number of guests">
-    </div>
-    <div class="inputBox">
-        <h3>arrivals</h3>
-        <input type="date">
-    </div>
-    <div class="inputBox">
-        <h3>leaving</h3>
-        <input type="date">
-    </div>
-    <input type="submit" class="btn" value="book now">
-</form>
-
-   </div>
-
-</section>
-
-<!--book section ends -->
-
-<!-- packages section starts -->
-
-<section class="packages" id="packages">
-
-    <h1 class="heading">
-        <span>P</span>
-        <span>A</span>
-        <span>C</span>
-        <span>K</span>
-        <span>A</span>
-        <span>G</span>
-        <span>E</span>
-        <span>S</span>
-    </h1>
-    
-    <div class="box-container">
-
-        <div class="box">
-            <img src="images/image1.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Mumbai </h3>
-                <p>Mumbai,hailed as the 'City of Dreams',is the capital of Maharashtra.The Gateway of india is one of the best tourist places to visit in mumbai</p>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-            <div class="price">$90.00 <span>$120</span> </div>
-            <div class="price">₹7500 <span>₹10000</span> </div>
-            <a href="#" class="btn">book now</a>
-        </div>
-    </div>
-
-    <div class="box">
-            <img src="images/image7.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i>Mauritius </h3>
-                <p>Mauritius Has Everything From Beautiful Landscapes With Open Valleys And Dense Forests To Endless Gardens Of Coral Populated By A Countless Variety Of Fish On The Reefs Surrounding It.</p>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-            <div class="price">$720<span>$850</span> </div>
-            <div class="price">₹60,000<span>₹70,550</span> </div>
-            <a href="#" class="btn">book now</a>
-        </div>
-    </div>
-
-    <div class="box">
-            <img src="images/image3.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Sydney </h3>
-                <p>From Farm Lands To Happening Cities, Australia Is A Perfect Blend Of Contemporary Feel And Cultural Mix. Get Enchanted By This Colorful Destination This Holiday.</p>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-            <div class="price">$843<span>$950</span> </div>
-            <div class="price">₹70,000 <span>₹78,850</span> </div>
-            <a href="#" class="btn">book now</a>
-        </div>
-    </div>
-
-    <div class="box">
-        <img src="images/image4.jpg" alt="">
-        <div class="content">
-            <h3> <i class="fas fa-map-marker-alt"></i>Paris </h3>
-            <p>Dreams are made in france.it is where you have the best castles, the best fashion and the best in gourment delight.but above everything,france has paris,the most romantic city on earth right next door to france.</p>
-        <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-        </div>
-        <div class="price">$1,566 <span>$2,650</span> </div>
-         <div class="price">₹1,30,000 <span>₹2,20,000</span> </div>
-        <a href="#" class="btn">book now</a>
-        </div>
-    </div>
-
-<div class="box">
-    <img src="images/image5.jpg" alt="">
-    <div class="content">
-        <h3> <i class="fas fa-map-marker-alt"></i>Tokyo </h3>
-        <p>Tokyo, the capital of Japan, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples.The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum)</p>
-    <div class="stars">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-    </div>
-    <div class="price">$1,084 <span>$1,205</span> </div>
-     <div class="price">₹90,000 <span>₹1,00,000</span> </div>
-    <a href="#" class="btn">book now</a>
-    </div>
-</div>
-
-        <div class="box">
-            <img src="images/image8.jpg" alt="">
-            <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Rajasthan </h3>
-                <p>Located In The Western Region Of India, Rajasthan Is Famous For Its Rustic Desertland, Colorful Festivals, Delectable Cuisine, Towering Palaces And Forts And Enchanting Landscape.</p>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-            <div class="price"> $241 <span>$482</span> </div>
-             <div class="price">₹20000 <span>₹40,000</span> </div>
-            <a href="#" class="btn">book now</a>
-        </div>
-    </div>
-
-</div>
-
-</section>
-
-  <!-- packages section ends -->
-
-    <!-- services section starts  -->
-
-    <section class="services" id="services">
-
-        <h1 class="heading">
-            <span>S</span>
-            <span>E</span>
-            <span>R</span>
-            <span>V</span>
-            <span>I</span>
-            <span>C</span>
-            <span>E</span>
-            <span>S</span>
-        </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <i class="fas fa-hotel"></i>
-                <h3>Tailored Tours and Packages</h3>
-                <p>We provide an extensive range of tailored tours and packages to accomodate your distinct interests and preferences.</p>
-                <p>We can assist you in planning an adventurous expedition, a family vacation , or a romantic get-away for two.</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-hiking"></i>
-                <h3>Program for Excursion</h3>
-                <p>We provide a range of programs and excursions for those who like tolearn more about the local culture and tourist destinations.</p>
-                <p>We have knowledgeable guides who can tell you more about the customs, heritage, and points of interest of the area.</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-bullhorn"></i>
-                <h3>Support and Planning</h3>
-                <p>We offer a comprehensive range of services for planning and supporting travel, including hotel, transportation, and ticket bookings in addition to guidance on insurance and visa requirements.</p>
-                <p>Our staff will be by your side at every turn to make sure you have the easiest ans most pleasurable vacation possible</p>
-            </div>
-        </div>
-
-    </section>
-
-<!-- services section ends -->
-
-<!-- gallery section start -->
-
-<section class="gallery" id="gallery">
-
-    <h1 class="heading">
-        <span>G</span>
-        <span>A</span>
-        <span>L</span>
-        <span>L</span>
-        <span>E</span>
-        <span>R</span>
-        <span>Y</span>
-    </h1>
-
-   <div class="box-container">
-
-        <div class="box">
-            <img src="images/mumbai.jpg" alt="">
-            <div class="content">
-                <h3>Dreamful Mumbai</h3>
-                <p>Places in Mumbai like Gateway of India, Chatrapati Shivaji Terminus, Juhu Chaupati, Taj Hotel are famous & Historical</p>
-                <a href="https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Mumbai" class="btn">See More</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/moritius1.jpg" alt="">
-            <div class="content">
-                <h3>Moritius Memories</h3>
-                <p>Moritius is island which gives heartwhelming experience of crystal clear water with different shades of blue and green.</p>
-                <a href="https://en.wikipedia.org/wiki/Tourism_in_Mauritius" class="btn">See More</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/Sydney.jpeg" alt="">
-            <div class="content">
-                <h3>Sydney Shines</h3>
-                <p>Sydney's Harbour Bridge, Opera House, Taronga & Sydney Zoo, Bondi beach, Coogee beach are the world wide famouse</p>
-                <a href="https://en.wikipedia.org/wiki/Tourism_in_Sydney" class="btn">See More</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/paris.jpeg" alt="">
-            <div class="content">
-                <h3>Paris</h3>
-                <p> A city with unbelievable food, culture and stunning views everywhere you turn. It's City 0f Lights.</p>
-                <a href="https://en.wikipedia.org/wiki/Tourism_in_Paris" class="btn">See More</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/image5.jpg" alt="">
-            <div class="content">
-                <h3>Tokyo</h3>
-                <p>Tokyo is Japan's major cultural centre.The art and history of Japan and Asia are featured at the Tokyo National Museum in Ueno Park. </p>
-                <a href="https://en.wikipedia.org/wiki/Tokyo" class="btn">See More</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="images/rajasthan.jpg" alt="">
-            <div class="content">
-                <h3>Rajasthan</h3>
-                <p>Rajasthan means "Land of Kings". This northwestern state of India is the largest state in the country</p>
-                <a href="https://en.wikipedia.org/wiki/Tourism_in_Rajasthan" class="btn">See More</a>
-            </div>
-        </div>
-</div>
-</section>
-<!-- gallery  section ends -->
-
-<!--review section start -->
-
-<section class="review" id="review">
+  <!-- Header -->
+  <header>
     <div class="container">
-</div>
-
-    <h1 class="heading">
-        <span>R</span>
-        <span>E</span>
-        <span>V</span>
-        <span>I</span>
-        <span>E</span>
-        <span>W</span>
-       </h1>
-
-
-       <!-- Swiper -->
-       <div class="swiper mySwiper container">
-         <div class="swiper-wrapper">
-     <!--section start--> 
-         <div class="swiper-slide">
-             <div class="swiper-client-msg">
-              <p>Thank you so much Travel. We had the absolute best time and can't wait to book again. Everything you did for us was perfect we loved the extras you threw in and used them all. It was so wonderful to have everything organised for us. Have already recommended you to our friends.
-              </p>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-             </div>
-             <div class="swiper-client-data grid grid-two-column">
-                 <figure>
-                     <img src="image/pic-1.png" alt="">
-                 </figure>
-                 <div class="client-data-details">
-                     <p>Chris James</p>
-                     <p>enterprenure</p>
-                 </div>
-            </div>
-       </div>
-    
-       <div class="swiper-slide">
-        <div class="swiper-client-msg">
-         <p>I used Travel for my very first trip out of my country and everything was amazing the prices absolutely excellent 
-            the staff I would highly recommended travel online 
-            Great service and excellent holiday
-         </p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-        </div>
-        </div>
-        <div class="swiper-client-data grid grid-two-column">
-            <figure>
-                <img src="image/pic-2.jpg" alt="">
-            </figure>
-            <div class="client-data-details">
-                <p>Marry George</p>
-                <p>Psychologist</p>
-                
-            </div>
-       </div>
-  </div>
-
-  <div class="swiper-slide">
-    <div class="swiper-client-msg">
-     <p>Guide lady was very prompt in returning answers to my queries. My first time coordinating travel wholly on-line, I was worried but needn't have been.
-            Had an awesome holiday! Thank you Travel everything went like clockwork.
-            Totally will use Travel for our future Holidays
-     </p>
-     <div class="stars">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
+      <a href="#" class="logo">Travel<span>Go</span></a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#destination">Destination</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="video-container">
+      <video src="images/vid-1.mp4" autoplay loop muted></video>
+      <div class="content">
+        <h1>Explore the world</h1>
+        <p>Travel far enough, you meet yourself</p>
+        <a href="#destination" class="btn">Explore Now</a>
+      </div>
     </div>
-    <div class="swiper-client-data grid grid-two-column">
-        <figure>
-            <img src="image/pic-3.jpg" alt="">
-        </figure>
-        <div class="client-data-details">
-            <p>Ruhani Sharma</p>
-            <p>Student</p>
-        </div>
-   </div>
-</div>
+  </section>
 
-<div class="swiper-slide">
-    <div class="swiper-client-msg">
-     <p>Great professional service right from the booking 
-            till the end of the trip, Thank you so much. Was a great experience 
-            Extremely happy, second time I have used travel , clear communication and travels plans went smoothly.
-            Booking a holiday package and flights with Travel was easily achieved
-     </p>
-     <div class="stars">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-    </div>
-    </div>
-    <div class="swiper-client-data grid grid-two-column">
-        <figure>
-            <img src="image/pic-4.jpg" alt="">
-        </figure>
-        <div class="client-data-details">
-            <p>Christopher Milgate</p>
-            <p>enterprenure</p>
-             </div>
-        </div>
-     </div>
-</div>
-</div>
-<div class="swiper-pagination"></div>
-</section>
-
-<!--review section end-->
-
-<!--contact section starts-->
-
-<section class="contact" id="contact">
-
-    <h1 class="heading">
-        <span>C</span>
-        <span>O</span>
-        <span>N</span>
-        <span>T</span>
-        <span>A</span>
-        <span>C</span>
-        <span>T</span>
-    </h1>
-  
-     <div class="row">
-
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-content">
         <div class="image">
-            <img src="images/contact-img.svg" alt="">
+          <img src="images/about-img.jpg" alt="About our travel company" />
         </div>
-  
-        <form action="">
-            <div class="inputBox">
-                <input type="text"placeholder="name">
-                <input type="email"placeholder="email">
-            </div>
-            <div class="inputBox">
-                <input type="number"placeholder="number">
-                <input type="text"placeholder="subject">
-            </div>
-            <textarea placeholder="message" name="" id=""cols="30" rows="10"></textarea>
-            <input type="submit" class="btn" value="send message">
-        </form>
+        <div class="text">
+          <h2>Why Choose Us?</h2>
+          <p>We offer amazing travel packages and excellent customer service.</p>
+          <ul>
+            <li>✔ Customized travel packages</li>
+            <li>✔ Best price guarantee</li>
+            <li>✔ 24/7 support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-     </div>
-</section>
+  <!-- Destination Section -->
+  <section class="destination" id="destination">
+    <div class="container">
+      <h2>Popular Destinations</h2>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/des-1.jpg" alt="Goa Beach" />
+          <h3>Goa</h3>
+        </div>
+        <div class="box">
+          <img src="images/des-2.jpg" alt="Shimla Hills" />
+          <h3>Shimla</h3>
+        </div>
+        <div class="box">
+          <img src="images/des-3.jpg" alt="Kerala Backwaters" />
+          <h3>Kerala</h3>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- brand sectioon start -->
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2>Our Memories</h2>
+      <div class="gallery-container">
+        <img src="images/g-1.jpg" alt="Beach view" />
+        <img src="images/g-2.jpg" alt="Hill station" />
+        <img src="images/g-3.jpg" alt="Adventure camp" />
+        <img src="images/g-4.jpg" alt="Trekking team" />
+        <img src="images/g-5.jpg" alt="Sunset shot" />
+        <img src="images/g-6.jpg" alt="Resort stay" />
+      </div>
+    </div>
+  </section>
 
-<section class="brand-container">
-
-    <div class="swiper-container brand-slider">
+  <!-- Swiper Slider Section -->
+  <section class="reviews">
+    <div class="container">
+      <h2>What our travelers say</h2>
+      <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="image/img1.png" alt=""></div>
-            <div class="swiper-slide"><img src="image/img2.png" alt=""></div>
-            <div class="swiper-slide"><img src="image/img3.png" alt=""></div>
-            <div class="swiper-slide"><img src="image/img4.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="image/img5.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="image/img6.png" alt=""></div>
-
-
-
-
+          <div class="swiper-slide">"Amazing experience!" - Rutuja</div>
+          <div class="swiper-slide">"Affordable and fun!" - Rahul</div>
+          <div class="swiper-slide">"Great support team!" - Priya</div>
         </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </div>
-</section>
+  </section>
 
-<!--brand sectioon ends -->
-
-<!--  footer section start-->
-<section class="footer">
-    <div class="box-container">
-        <div class="box">
-            <h3>about us </h3>
-            <p>Our excellent rapport of over two decades with the Airlines,Hotels, Car Rentals, Visa Providers has given us the confidence to do the best in times of crisis or emergencies and won us the trust of our clients. Robust decision making process owing to us being a single owner agency enables us to "Focus on exceeding service expectations".</p>
-        </div>
-        <div class="box">
-            <h3>branch locations</h3>
-            <a href="#">india</a>
-            <a href="#">USA</a>
-            <a href="#">japan</a>
-            <a href="#">france</a>
-        </div>
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#">home</a>
-            <a href="#">packages</a>
-            <a href="#">services</a>
-            <a href="#">gallery</a>
-            <a href="#">review</a>
-            <a href="#">contact</a>
-        </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#">facebook</a>
-            <a href="#">instagram</a>
-            <a href="#">twitter</a>
-            <a href="#">linkedin</a>          
-        </div>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="contact.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
     </div>
+  </section>
 
-    <h1 class="credit"> created by <span> 1.Shrutika Patil 2.Rutuja Pawar 3.Mansi Sawant 4.Akankasha Yadav </span> ! all rights reserved! </h1>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 TravelGo. All rights reserved.</p>
+    </div>
+  </footer>
 
-</section>
-
-
-
-
-<!--  footer section ends-->
-
-
-
-<!--contact section end-->
-
-<!-- custom js file link -->
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script src="js/Scriptt.js"></script>
+  <!-- JS Scripts -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 
 </body>
 </html>
